@@ -1,0 +1,36 @@
+# Ambiente virtual
+.venv/
+venv/
+env/
+
+# Cache e arquivos compilados do Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Dados gerados/sensíveis (mantenha só o exemplo de entrada versionado, se quiser)
+Produtos_atualizados.xlsx
+
+# Arquivos de configuração de IDE
+.vscode/
+.idea/
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Driver do navegador (caso baixado manualmente)
+chromedriver*
+geckodriver*
+
+# PDF
+*.pdf
+
+#não subir o gabarito
+Gabarito - automacao.ipynb
